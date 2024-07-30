@@ -41,14 +41,14 @@
     </div>
 </form>
 {{-- Bottom link --}}
-<div class="mt-6 text-center">
+{{--<div class="mt-6 text-center">
     <a
         class="text-sm text-gray-700 underline hover:no-underline"
         href="{{ route('password.request') }}"
     >
         Forgot password
     </a>
-</div>
+</div>--}}
 </x-auth-layout>
 
 {{--<x-guest-layout>
