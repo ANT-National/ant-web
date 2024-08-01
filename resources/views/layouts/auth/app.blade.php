@@ -1,31 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="icon" href="{{ asset('ant-favicon.svg') }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/aos-init.js'])
-</head>
-<body class="--font-inter bg-gray-50 font-inter tracking-tight text-gray-900 antialiased scroll-smooth">
+<x-main-layout :title="$title" class="--font-inter bg-gray-50 font-inter tracking-tight text-gray-900 antialiased scroll-smooth">
 <div class="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
     <header class="absolute z-30 w-full">
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
             <div class="flex h-16 items-center justify-between md:h-20">
                 <div class="mr-4 shrink-0">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                    <a href="{{ route('home') }}"><x-application-logo class="w-20 h-20 fill-current text-gray-500" /></a>
                 </div>
             </div>
         </div>
     </header>
-
     <main class="relative flex grow">
         <div
             class="pointer-events-none absolute bottom-0 left-0 -translate-x-1/3"
@@ -33,7 +16,6 @@
         >
             <div class="h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500 opacity-70 blur-[160px]"></div>
         </div>
-
         {{-- Content --}}
         <div class="w-full">
             <div
@@ -95,6 +77,4 @@
         </div>
     </main>
 </div>
-@stack('scripts')
-</body>
-</html>
+</x-main-layout>

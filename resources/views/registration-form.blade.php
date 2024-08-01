@@ -1,4 +1,4 @@
-<x-auth-layout>
+<x-auth-layout title="Registration ANT Horizon 2024">
     <div class="mb-10">
         <h1 class="text-4xl font-bold">Registration <br> ANT Horizon 2024</h1>
     </div>
