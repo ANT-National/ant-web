@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\Situation;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -32,6 +33,7 @@ class EventRegistration extends Model
         'interests' => 'array',
         'heard_from' => 'array',
         'need_transport' => 'boolean',
+        'situation' => Situation::class
     ];
 
     public function user()

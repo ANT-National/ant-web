@@ -17,9 +17,18 @@ class RegistrationEventController
 {
     public function showRegistrationForm()
     {
-        return view('registration-form', [
+        return view('registration.registration-form', [
             'situations' => \App\Enums\Situation::toArray(),
             'genders' => \App\Enums\Gender::toArray(),
+        ]);
+    }
+
+    public function showAdminRegistrationList()
+    {
+
+        $registrations = EventRegistration::with('user')->get();
+        return view('registration.index', [
+            'registrations' => $registrations,
         ]);
     }
 
@@ -62,7 +71,7 @@ class RegistrationEventController
 
             DB::commit();
             return response()->json([
-                'message' => 'Registration successful!',
+                'message' => 'Congratulations on your successful registration! 🎉 One of our tech-savvy team members will reach out shortly to validate your registration and ensure everything is seamlessly integrated. Stay tuned for a smooth and streamlined onboarding experience!',
                 'redirect' => route('home')
             ]);
         } catch (\Exception $e) {

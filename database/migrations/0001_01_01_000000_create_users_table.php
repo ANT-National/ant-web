@@ -19,7 +19,7 @@ return new class extends Migration
             $table->unsignedTinyInteger('gender');
             $table->string('profile_picture')->nullable();
             $table->date('date_of_birth')->nullable();
-            $table->boolean('is_ant_member')->default(false);
+            $table->boolean('is_member')->default(false);
             $table->timestamp('last_login')->nullable();
             $table->string('google_id')->nullable();
             $table->string('facebook_id')->nullable();
