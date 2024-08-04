@@ -1,4 +1,4 @@
-<x-global-layout>
+<x-guest-layout>
     <section class="relative">
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
             <!-- Hero content -->
@@ -448,5 +448,5 @@
             }
         </script>
     @endpush
-</x-global-layout>
+</x-guest-layout>
 
