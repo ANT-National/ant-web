@@ -202,3 +202,34 @@ input[type="search"]::-webkit-search-results-decoration {
 [data-rehype-pretty-code-title] + pre {
     @apply mt-0 rounded-t-none border-t-0;
 }
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.slide-down-enter {
+    animation: slideDown 0.3s ease-out;
+}
+
+.slide-up-leave {
+    animation: slideUp 0.3s ease-in;
+}
+

@@ -19,7 +19,7 @@ class AdminUserSeeder extends Seeder
         $admin = User::updateOrCreate(
             ['email' => 'admin@ant.com'],
             [
-                'name' => 'Admin User',
+                'full_name' => 'Admin User',
                 'phone_number' => '12345678',
                 'gender' => Gender::Male,
                 'password' => bcrypt('rdlt2750'),
