@@ -233,3 +233,27 @@ input[type="search"]::-webkit-search-results-decoration {
     animation: slideUp 0.3s ease-in;
 }
 
+
+.swal-title {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.swal-content {
+    color: #555;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+
+.swal-confirm-button {
+    background-color: theme('colors.primary');
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.swal-confirm-button:hover {
+    background-color: theme('colors.primary'); /* Customize button hover color */
+}
+

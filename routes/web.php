@@ -19,5 +19,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/event/register', [RegistrationEventController::class, 'showRegistrationForm'])->name('showRegistrationForm');
 Route::post('/event/register', [RegistrationEventController::class, 'handleEventRegister'])->name('handleEventRegister');
+Route::get('/admin/event/registrations', [RegistrationEventController::class, 'showAdminRegistrationList'])->name('showAdminRegistrationList');
+
 
 require __DIR__.'/auth.php';

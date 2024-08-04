@@ -630,9 +630,24 @@
                                     message: response.data.message,
                                     type: 'bg-green-100 border-green-400 text-green-700'
                                 };
-                                setTimeout(() => {
-                                    window.location.href = response.data.redirect;
-                                }, 2000);
+                                Swal.fire({
+                                    title: '🎉 Success!',
+                                    text: response.data.message,
+                                    icon: 'success',
+                                    confirmButtonText: 'Got it!',
+                                    confirmButtonColor: '#3085d6',
+                                    background: '#f4f4f4',
+                                    customClass: {
+                                        title: 'swal-title',
+                                        content: 'swal-content',
+                                        confirmButton: 'swal-confirm-button'
+                                    }
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        window.location.href = response.data.redirect;
+                                    }
+                                });
+
                             })
                             .catch(error => {
                                 if (error.response && error.response.status === 422) {
