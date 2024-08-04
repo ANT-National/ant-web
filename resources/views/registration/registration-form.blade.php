@@ -348,42 +348,42 @@
                     </label>
                     <div class="flex flex-col">
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="AI"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="AI"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">AI Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="cloud"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="cloud"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Cloud Computing Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="web"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="web"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Web Development Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="mobile"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="mobile"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Mobile Development Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="security"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="security"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Cybersecurity Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="career"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="career"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Career Building Conference</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="time"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="time"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Time Management Workshop</span>
                         </label>
                         <label class="inline-flex items-center mt-3">
-                            <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" value="speaking"
+                            <input type="checkbox" class="leading-tight h-5 w-5 text-gray-600" value="speaking"
                                    x-model="form.interests">
                             <span class="ml-2 text-gray-700">Public Speaking Workshop</span>
                         </label>
@@ -510,7 +510,7 @@
                 <!-- Agreement -->
                 <div class="w-full px-3 mb-6">
                     <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox" name="agreement" x-model="form.agreement">
+                        <input type="checkbox" class="leading-tight" name="agreement" x-model="form.agreement">
                         <span class="ml-2">I have carefully read the internal regulations and I accept all the terms contained therein.*</span>
                     </label>
                     <p x-show="errors.agreement" x-text="errors.agreement" class="text-red-500 text-xs italic"></p>
