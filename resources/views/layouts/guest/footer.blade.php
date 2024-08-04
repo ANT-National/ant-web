@@ -19,18 +19,18 @@
 
             {{-- 3rd block --}}
             <div class="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-                <h3 class="text-sm font-medium">Association</h3>
+               {{-- <h3 class="text-sm font-medium">Association</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a class="text-gray-600 transition hover:text-gray-900" href="#0">About us</a></li>
-                </ul>
+                </ul>--}}
             </div>
 
             {{-- 4th block --}}
             <div class="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-                <h3 class="text-sm font-medium">Resources</h3>
+               {{-- <h3 class="text-sm font-medium">Resources</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a class="text-gray-600 transition hover:text-gray-900" href="#0">Terms of service</a></li>
-                </ul>
+                </ul>--}}
             </div>
 
             {{-- 5th block --}}
@@ -38,17 +38,17 @@
                 <h3 class="text-sm font-medium">Social</h3>
                 <ul class="flex gap-2">
                     <li>
-                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="#0" aria-label="Twitter">
+                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="https://www.facebook.com/ant.nationale" target="_blank" aria-label="Facebook">
                             <i class="fa-brands fa-square-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="#0" aria-label="Medium">
+                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="https://www.instagram.com/ant.nationale" target="_blank" aria-label="Instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="#0" aria-label="Github">
+                        <a class="flex items-center justify-center text-primary transition hover:text-cyan-600 text-xl" href="https://www.instagram.com/ant.nationale" target="_blank" aria-label="Linkedin">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </li>
