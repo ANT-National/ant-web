@@ -5,17 +5,17 @@ namespace App\View\Components;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 
-class AuthLayout extends Component
+class MainLayout extends Component
 {
     public string $title;
 
-    public function __construct($title = null)
+    public function __construct($title)
     {
-        $this->title = $title ?? config('app.default_title');
+        $this->title = config('app.name') ." | ". $title;
     }
 
     public function render(): View
     {
-        return view('layouts.auth.app');
+        return view('layouts.main');
     }
 }

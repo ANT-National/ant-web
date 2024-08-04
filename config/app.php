@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'default_title' => env('APP_DEFAULT_TITLE', '🌐 National Association of Technologies'),
+
 ];
