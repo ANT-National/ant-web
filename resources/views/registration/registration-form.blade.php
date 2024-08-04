@@ -587,7 +587,7 @@
                         { number: 3, title: 'Step 3', description: 'Event-specific Information' }
                     ],
                     init() {
-                        fetch('{{ url('/json/tn-gov-data.json') }}')
+                        fetch('{{ asset('json/tn-gov-data.json') }}')
                             .then(response => response.json())
                             .then(jsonData => {
                                 this.data = jsonData['governorates'];
