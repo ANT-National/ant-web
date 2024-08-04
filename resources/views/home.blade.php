@@ -371,7 +371,7 @@
                     </div>
                     <div class="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center mt-5">
                         <a class="btn group mb-4 w-full bg-gradient-to-t from-primary to-cyan-400 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                           href="#0">
+                           href="{{ route('showRegistrationForm') }}">
                         <span class="relative inline-flex items-center">
                             Register Now
                             <span class="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">

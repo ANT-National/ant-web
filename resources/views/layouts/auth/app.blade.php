@@ -17,11 +17,11 @@
             <div class="h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500 opacity-70 blur-[160px]"></div>
         </div>
         {{-- Content --}}
-        <div class="w-full">
+        <div class="w-full lg:pr-[572px]">
             <div
                 class="flex h-full flex-col justify-center before:min-h-[4rem] before:flex-1 after:flex-1 md:before:min-h-[5rem]">
                 <div class="px-4 sm:px-6">
-                    <div class="mx-auto w-full max-w-sm">
+                    <div class="mx-auto w-full max-w-lg">
                         <div class="py-16 md:py-20">
                             {{ $slot }}
                         </div>
@@ -31,7 +31,7 @@
         </div>
 
         {{-- Right side --}}
-        <div class="relative my-6 mr-6 hidden w-[572px] shrink-0 overflow-hidden rounded-2xl lg:block">
+        <div class="fixed right-0 top-0 bottom-0 my-6 mr-6 hidden w-[572px] shrink-0 overflow-hidden rounded-2xl lg:block">
             {{-- Background --}}
             <div
                 class="pointer-events-none absolute left-1/2 top-1/2 -z-10 -ml-24 -translate-x-1/2 -translate-y-1/2 bg-blue-50"
