@@ -68,7 +68,7 @@
                     <li>Quadruple room: 180 DT.</li>
                 </ul>
                 <p>Register today to reserve your spot!</p>
-                <a href="#" class="text-primary">Check the internal regulations!</a>
+                <a href="http://associationant.tn/public/assets/reglement.pdf" target="_blank" class="text-primary">Check the internal regulations!</a>
             </div>
 
 

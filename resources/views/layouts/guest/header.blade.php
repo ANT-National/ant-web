@@ -9,11 +9,11 @@
 
             {{-- Desktop sign in links --}}
             <ul class="flex flex-1 items-center justify-end gap-3">
-                <li>
+                {{--<li>
                     <a href="{{ route('login') }}" class="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50">
                         Login
                     </a>
-                </li>
+                </li>--}}
                 <li>
                     <a href="{{ route('showRegistrationForm') }}" class="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900">
                         Register

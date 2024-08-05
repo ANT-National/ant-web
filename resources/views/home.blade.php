@@ -12,7 +12,7 @@
                         <div class="-mx-0.5 flex justify-center -space-x-3">
                             <img
                                 class="box-content rounded-full border-2 border-gray-50"
-                                src="{{ asset('images/avatar-01.jpg') }}"
+                                src="{{ asset('images/ant_logo_v.svg') }}"
                                 width="32"
                                 height="32"
                                 alt="Avatar 01"
@@ -48,6 +48,27 @@
                             <img
                                 class="box-content rounded-full border-2 border-gray-50"
                                 src="{{ asset('images/avatar-06.jpg') }}"
+                                width="32"
+                                height="32"
+                                alt="Avatar 06"
+                            />
+                            <img
+                                class="box-content rounded-full border-2 border-gray-50"
+                                src="{{ asset('images/avatar-07.jpg') }}"
+                                width="32"
+                                height="32"
+                                alt="Avatar 06"
+                            />
+                            <img
+                                class="box-content rounded-full border-2 border-gray-50"
+                                src="{{ asset('images/avatar-08.jpg') }}"
+                                width="32"
+                                height="32"
+                                alt="Avatar 06"
+                            />
+                            <img
+                                class="box-content rounded-full border-2 border-gray-50"
+                                src="{{ asset('images/avatar-09.png') }}"
                                 width="32"
                                 height="32"
                                 alt="Avatar 06"
@@ -402,12 +423,11 @@
                              width="48" height="48" alt="Large testimonial"/>
                     </div>
                     <p class="text-2xl font-bold text-gray-900">
-                        “ANT has been a game-changer for us. The innovative solutions and networking opportunities have
-                        truly transformed our approach to technology and project management.”
+                        “ANT has proven to be a transformative asset for us. The innovative solutions and networking opportunities have fundamentally reshaped our approach to technology and project management. We highly value the enhancements and efficiencies brought about by our engagement with ANT, which continue to drive our success in a competitive landscape.”
                     </p>
                     <div class="text-sm font-medium text-gray-500">
-                        <span class="text-gray-700">Aymen SH</span> <span class="text-gray-400">/</span>
-                        <a class="text-primary" href="#0">Chief Technology ANT</a>
+                        <span class="text-gray-700">Aymen SAHRAOUI</span> <span class="text-gray-400">/</span>
+                        <a class="text-primary" href="https://www.linkedin.com/in/aymen-sh/">Chief Technology ANT</a>
                     </div>
                 </div>
             </div>

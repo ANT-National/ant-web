@@ -45,31 +45,39 @@
                     <div
                         class="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] after:w-[41px]">
                         <span class="text-[13px] font-medium text-white">
-                            cruip.com
+                            association.tn
                         </span>
                     </div>
                     <div class="font-mono text-sm text-gray-500 transition duration-300 [&_span]:opacity-0">
                         <span class="animate-[code-1_10s_infinite] text-gray-200">
-                            npm login
+                            Join us at ANT Horizon,<br> where ideas meet technologies.
                         </span>
                         <span class="animate-[code-2_10s_infinite]">
-                            --registry=https://npm.pkg.github.com
+                            cd /path/to/your/coding-adventure
                         </span>
                         <br>
                         <span class="animate-[code-3_10s_infinite]">
-                            --scope=@phanatic
+                            --get-involved
                         </span>
                         <span class="animate-[code-4_10s_infinite]">
-                            Successfully logged-in.
+                            --experience-the-fun
                         </span>
                         <br>
                         <br>
                         <span class="animate-[code-5_10s_infinite] text-gray-200">
-                            npm publish
+                            Successfully joined the crew! 🎉
                         </span>
                         <br>
                         <span class="animate-[code-6_10s_infinite]">
-                            Package published.
+                            npm install awesome-experience
+                        </span>
+                        <br/>
+                        <span class="animate-[code-6_10s_infinite] ">
+                            Package installed. 🚀
+                        </span>
+                        <br/>
+                        <span class="animate-[code-6_10s_infinite] text-gray-200">
+                            Ready to build something amazing? Let's go! 🚀
                         </span>
                     </div>
                 </div>
